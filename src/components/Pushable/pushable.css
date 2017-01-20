@@ -1,0 +1,8 @@
+.pushable {
+  transition: transform 80ms ease-in;
+  will-change: transform;
+}
+
+.active {
+  transform: scale(0.9);
+}

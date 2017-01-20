@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-size: 7.5vmin;
+  padding: 2vmin;
+  font-weight: 100;
+}
+
+.input {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.submitArea {
+  width: 90vw;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.score + .submitArea {
+  margin-top: 0rem;
+}
+
+.submitArea > * {
+  margin: 1rem;
+  flex: 1
+}

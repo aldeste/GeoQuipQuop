@@ -1,0 +1,61 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "react": "^15.3.0",
+    "react-addons-css-transition-group": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-tappable": "^0.8.3",
+    "world-countries": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-react-fix-it": "^0.1.0",
+    "babel-plugin-transform-react-constant-elements": "^6.9.1",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.2.11",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.0.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babili-webpack-plugin": "^0.0.7",
+    "css-loader": "^0.26.1",
+    "elementtree": "^0.1.6",
+    "enzyme": "^2.7.0",
+    "file-loader": "^0.9.0",
+    "jest": "^18.1.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-fix-it": "^0.3.3",
+    "react-test-renderer": "^15.4.2",
+    "replace": "^0.3.0",
+    "style-loader": "^0.13.0",
+    "svg-url-loader": "^1.1.1",
+    "url-loader": "^0.5.7",
+    "webpack": "beta",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^2.4.0"
+  },
+  "scripts": {
+    "android": "cordova run android",
+    "ios": "cordova run ios",
+    "prepare": "node config && webpack && cordova prepare",
+    "build": "node config && NODE_ENV=production webpack --color --progress && cordova build",
+    "start": "node config && HOST=0.0.0.0 webpack-dev-server",
+    "test": "jest"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "node_modules/react/",
+      "node_modules/enzyme/"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css|scss|sass|less)$": "<rootDir>/test/__mocks__/fileMock.js"
+    }
+  },
+  "keywords": [],
+  "author": "none specified",
+  "license": "none specified"
+}

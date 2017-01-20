@@ -1,0 +1,37 @@
+.scorebord {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90vw;
+  background: #CBC5EA;
+}
+
+.scorefield {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.scorefield > * {
+  margin: 0;
+}
+
+.standout {
+  background: #73628A;
+  color: #EAEAEA;
+  animation: blink linear 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes blink{
+  0% {
+    background: #73628A;
+  }
+  50% {
+    background: #313D5A;
+  }
+  100% {
+    background: #73628A;
+  }
+}
