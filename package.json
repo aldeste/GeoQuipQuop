@@ -1,5 +1,5 @@
 {
-  "name": "my_app",
+  "name": "GeoQuipQuop",
   "version": "1.0.0",
   "main": "src/index.js",
   "dependencies": {
@@ -57,5 +57,5 @@
   },
   "keywords": [],
   "author": "none specified",
-  "license": "none specified"
+  "license": "MIT"
 }
