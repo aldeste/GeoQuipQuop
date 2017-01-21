@@ -48,6 +48,24 @@
         },
         "cordova-plugin-nativestorage": {
             "PACKAGE_NAME": "com.doStuffTogether"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.GeoQuipQuop"
         }
     },
     "dependent_plugins": {

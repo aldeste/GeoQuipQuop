@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.doStuffTogether" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.GeoQuipQuop" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="NativeStorage">
         <param name="browser-package" value="NativeStorage" />
     </feature>
-    <name>doStuffTogether</name>
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>GeoQuipQuop</name>
     <description>
-    Hello World sample application using React, Webpack and Hot Reloading.
+    Geography quiz app
   </description>
-    <author email="support@phonegap.com" href="https://github.com/JedWatson">
-    Jed Watson and the PhoneGap Team
+    <author email="alexanderdeste@gmail.com" href="https://github.com/aldeste/GeoQuipQuop">
+    Alexander
   </author>
     <access origin="*" />
     <allow-intent href="http://*/*" />
